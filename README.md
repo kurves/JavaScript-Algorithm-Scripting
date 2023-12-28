@@ -1,1 +1,1 @@
-"# JavaScript Intermediate Algorithm Scripting" 
+# JavaScript Intermediate Algorithm Scripting
