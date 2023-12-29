@@ -1,8 +1,13 @@
+// function to reverse string
 function reverseString(str){
+    
+    //intialize empty str
     let reversedStr ="";
-    for (let i=str.length; i>0;i--){
-        reversedStr += i;
+
+    //loop through the str
+    for (let i=str.length -1; i>=0;i--){
+        reversedStr += str[i];
     }
     console.log(reversedStr);
 }
-reverseString("hello");
+reverseString("greetings from Earth");
