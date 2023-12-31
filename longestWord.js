@@ -1,11 +1,16 @@
 function longestWordLength(str){
+    // split str 
    let words= str.split(' ')
-    console.log(str)
-
+   maxLength =0;
+ 
+// for loop 
     for(let i=0; i<words.length -1;i++){
-        console.log(Math.max((words[i].length)));
+        if (words[i].length > maxLength){
+            maxLength = words[i].length
+        }
+      
     }
-
+return maxLength;
 }
 
 longestWordLength("kurves is good ")
