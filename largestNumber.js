@@ -1,8 +1,11 @@
 function largestNumber(arr){
     let largestArrNumber =0;
     for (let i =0; i < arr.length; i++){
-        for (let j =i ; j < arr[i]; j++){
-            console.log(arr[i][j]);
+        for (let j =0 ; j < arr[i]; j++){
+            if (arr[i][j] > largestArrNumber){
+                largestArrNumber = arr[i][j]
+            }
+            console.log(largestArrNumber);
         }
     
     }
