@@ -10,7 +10,7 @@ function longestWordLength(str){
         }
       
     }
-return maxLength;
+console.log(maxLength);
 }
 
-longestWordLength("kurves is good ")
+longestWordLength("What if we try a super-long word such as otorhinolaryngology ")
