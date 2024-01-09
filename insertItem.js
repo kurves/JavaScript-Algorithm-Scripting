@@ -1,12 +1,13 @@
 function insertItem(arr, num){
-mid = arr.length // 2
+    //sort array
+    arr.sort((a,b)=> a-b);
+    // loop through array
 for (let i =0; i <arr.length; i++){
-    if (arr[i] < mid){
-        let left = arr[i]
+    if (arr[i]  >= num){
+       return i
     }else{
-        if(arr[i] >mid){
-            let right = arr[i]
+      return arr.length
         }
-    }
+    
 }
 }
