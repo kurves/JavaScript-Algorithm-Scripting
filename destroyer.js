@@ -8,5 +8,10 @@ for (let i=0;i < arr.length;i++){
             removeElem = true;
         }
     }
+    if (!remElem){
+        filtered.push(arr[i]);
+
+    }
 }
+return filtered
 }
