@@ -1,5 +1,5 @@
 function spinalCase(str)
 {
-str.split(" ".join("-"))
+return str.split(" ").join("-")
 }
 spinalCase("my name is kurves")
