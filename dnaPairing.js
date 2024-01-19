@@ -5,4 +5,6 @@ const pairs={
     C: "G",
     G: "C"
 };
+return str.split("")
+.map(x=>[x, pairs[x]])
 }
