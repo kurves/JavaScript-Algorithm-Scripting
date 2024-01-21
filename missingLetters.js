@@ -1,7 +1,6 @@
 function missingLetters(str){
-    firstLetter = str[0]
-    lastLetter = str[-1]
-    for ( let i =ord(firstLetter); i < ord(lastLetter); i++ ){
+    for ( let i =0; i< str.length; i++){
+        const char =  str.charCodeAt(i);
         console.log(str(i))
     }
 
