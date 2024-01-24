@@ -9,5 +9,6 @@ function htmlEntities(){
         '""':"&quot;",
         "'":"&apos;"
     };
+    return structuredClone.replace(/([&<>\"'])/g, match => entities[match])
     
 }
