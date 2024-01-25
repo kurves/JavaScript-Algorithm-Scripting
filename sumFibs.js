@@ -1,8 +1,9 @@
-function simFibs(num){
-    // function to sum odd fib nums
+function sumFibs(num){
+    // function to sum oddufib nums
     if (num !=0){
-        for( n in range(num))
-        return simFibs(n-1) + simFibs(n-2)
+        for( let n =0; n< num;n++)
+        return sumFibs(n-1) + sumFibs(n-2)
     }
 
 }
+sumFibs(10)
