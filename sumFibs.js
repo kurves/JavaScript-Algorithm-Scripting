@@ -1,7 +1,7 @@
 function sumFibs(num){
     // function to sum oddufib nums
     if (num !=0){
-        for (n=0; n< num;n++){
+        for (let n=0; n<= num;n++){
             console.log(n)
         }
       
