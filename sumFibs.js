@@ -5,7 +5,8 @@ function sumFibs(num){
             
         
       
-        console.log( sumFibs(n-1) + sumFibs(n-2))
+        sum =sumFibs(n-1) + sumFibs(n-2)
+        console.log(sum)
         }
 }
 
