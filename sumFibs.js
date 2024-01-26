@@ -2,6 +2,8 @@ function sumFibs(num){
     // function to sum oddufib nums
     if (num !=0){
         for (let n=0; n<= num;n++){
+            let a = 0;
+            let b = 1;
             
         
       
