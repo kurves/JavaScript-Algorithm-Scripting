@@ -7,10 +7,11 @@ function sumFibs(num){
             }
             let a = 0;
             let b = 1;
+            b + a 
             
         
       
-        sum =sumFibs(n-1) + sumFibs(n-2)
+        sum =sumFibs(n-1)
         console.log(sum)
         }
 }
