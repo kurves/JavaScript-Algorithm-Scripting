@@ -5,7 +5,11 @@ function sumFibs(num){
     fib_sum =0
 
     while  (b<= num){
-        fib_sum += b
+        if (b% 2 ==0){
+            fib_sum += b
+        }
+      a ,b = b, a+b
+      print(fib_sum)
 
     }
     if (num !=0){
