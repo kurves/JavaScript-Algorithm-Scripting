@@ -1,5 +1,8 @@
 function sumFibs(num){
-    // function to sum oddufib nums
+    // function to sum oddufib nums]
+    let a =0
+    let b =1
+    fib_sum =0
     if (num !=0){
         for (let n=0; n<= num;n++){
             if (n % 2 !== 0){
