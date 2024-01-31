@@ -2,6 +2,10 @@ function sumPrimes(num){
     //funtiion to sum primes
     let sum_prime =0;
     n = 1
-    while (num )
+    prime= num % 
+    for(let n = 1; n<= num ; n++){
+
+    }
+    while ( n <=num )
 
 }
