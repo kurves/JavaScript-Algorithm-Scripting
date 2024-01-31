@@ -9,7 +9,7 @@ fib_sums += b
 [a,b] = [b, a+b]
 
     }
-    console.log(fib_sums)
+    return (fib_sums)
   }
 
 }
