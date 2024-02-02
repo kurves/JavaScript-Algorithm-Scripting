@@ -2,7 +2,9 @@ function sumPrimes(num){
     //funtiion to sum primes
     let sum_prime =0;
     
-    for (let n = 1; n<= num ; n++){
+    for (let n = 2; n<= num ; n++){
+        primt = true;
+    
 
         for (let i = 2; i <= Math.sqrt(n); i++) {
             if (n % i === 0) {
