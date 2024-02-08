@@ -1,11 +1,16 @@
 function smallestCommonMultiple(arr){
 
-    function gcd(x, y) {
         while (y !== 0) {
             let temp = y;
             y = x % y;
             x = temp;
         }
+        return x;
+    }
+
+    
+    return (a * b) / gcd(a, b);
+}
 
     start = arr[0];
     end = arr[-1]
