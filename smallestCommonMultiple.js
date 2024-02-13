@@ -6,12 +6,7 @@ function smallestCommonMultiple(arr){
      while(isNotDivisible(mult, arr[0], arr[1])){
 mult += arr[1]
      }
-        while (y !== 0) {
-            let temp = y;
-            y = x % y;
-            x = temp;
-        }
-        return x;
+      
     }
 
     
