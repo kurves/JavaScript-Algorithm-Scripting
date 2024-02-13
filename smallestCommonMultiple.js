@@ -9,11 +9,12 @@ mult += arr[1]
       return mult
     }
 
-    function isNotDivisible(){
+    function isNotDivisible(num,min, max){
 for(let i =min; i <= max; i++){
 if(num %i ==0){
-    return False
+    return false
 }
+return true
 }
     }
 
