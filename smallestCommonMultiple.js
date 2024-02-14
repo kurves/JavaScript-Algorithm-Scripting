@@ -5,8 +5,8 @@ function smallestCommonMultiple(arr){
      let mult = arr[0]
      let range = []
 
-for(let i =0; i < range.length; i++){
-    let current = range[i];
+for(let i =arr[0]; i < arr[i]; i++){
+    range.push(i)
     
 
 
