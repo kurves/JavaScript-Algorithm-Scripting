@@ -8,7 +8,10 @@ function smallestCommonMultiple(arr){
 for(let i =arr[0]; i < arr[i]; i++){
     range.push(i)
     
-
+// loop through  the range of numbers
+for (let i = 0; i < range.length; i++){
+    let current = range[i]
+}
 
      while(isNotDivisible(mult, arr[0], arr[1])){
 mult += arr[1]
