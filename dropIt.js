@@ -5,7 +5,10 @@ function dropElements(arr, func) {
         return [];
     }
     for(let i=0; i < arr.length; i++){
-        
+        while (!func){
+            arr.shift(i)
+        }
+
     }
     return arr;
   }
