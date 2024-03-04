@@ -2,8 +2,9 @@
 
 function dropElements(arr, func) {
     let indexRemove = 0;
-    while (indexRemove < arr.length){
-        
+    while (indexRemove < arr.length && !func(arr[indexRemove])){
+        indexRemove ++
+
     }
     if (arr.length < 0){
         return [];
