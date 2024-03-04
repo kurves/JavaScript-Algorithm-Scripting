@@ -1,6 +1,10 @@
 //function to remove element until func is true
 
 function dropElements(arr, func) {
+    let indexRemove = 0;
+    while (indexRemove < arr.length){
+        
+    }
     if (arr.length < 0){
         return [];
     }
