@@ -6,6 +6,7 @@ function dropElements(arr, func) {
         indexRemove ++
 
     }
+    return indexRemove < arr.length ? arr.splice(indexRemove + 1): []
     if (arr.length < 0){
         return [];
     }
