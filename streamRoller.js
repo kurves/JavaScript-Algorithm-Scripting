@@ -1,13 +1,13 @@
     function streamRoller(arr){
         // funtion to flatten nestesd array
         arr.forEach(element => {
-            if (Array.isArray(element)) {
-                result = result.concat(flattenArray(element));
+            if (arr.isArray(element)) {
+                res = res.concat(flattenArray(element));
 
-    }    } else {
-            result.push(element);
+        } else {
+            res.push(element);
         }
     });
 
-    return result;
+    return res;
 }
