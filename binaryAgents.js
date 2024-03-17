@@ -1,5 +1,8 @@
-function binaryAgents(str){
-for(let i=0; i< str.length; i++){
+function binaryAgents(binaryStr){
+binaryDigits = binaryStr.split('');
+const asciiStr = binaryDigits.map(binaryDigit=>(
     
-}
+))
+
+
 }
