@@ -7,6 +7,8 @@ const asciiStr = binaryDigits.map(binaryDigit=>(
         const decimalVal = parseInt(binaryDigits[1], 2)
 
         const char = string.formCharCode(decimalVal)
+
+        translatedString += char;
     }
 ))
 
