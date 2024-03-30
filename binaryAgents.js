@@ -1,16 +1,16 @@
 function binaryAgents(binaryStr){
+
 const binaryDigits = binaryStr.split('');
-const asciiStr = binaryDigits.map(binaryDigit=>(
-    
-    let translatedString = '';
-    for (let i =0; i < binaryDigits;){
+
+let translatedString = '';
+for (let i =0; i < binaryDigits;  i++){
         const decimalVal = parseInt(binaryDigits[1], 2)
 
-        const char = string.formCharCode(decimalVal)
+        const char = string.formCharCode(decimalVal);
 
         translatedString += char;
     }
-))
+
 
 
 }
