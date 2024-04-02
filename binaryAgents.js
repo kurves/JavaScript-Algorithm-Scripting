@@ -2,7 +2,7 @@ function binaryAgents(binaryStr){
 
 const binaryDigits = binaryStr.split('');
 
-const charArray = binaryDigits.map(binaryStr)
+const charArray = binaryDigits.map(binaryStrbinary => String.fromCharCode(parseInt(binary, 2)));)
 
 let translatedString = '';
 for (let i =0; i < binaryDigits;  i++){
